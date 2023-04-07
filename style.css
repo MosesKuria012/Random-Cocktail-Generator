@@ -1,0 +1,56 @@
+html {
+	height: 100%;
+  }
+  
+  body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background-size: cover;
+	font-family: 'Times New Roman', Times, serif;
+  }
+  #overlay {
+	background: rgba(36, 32, 66, 0.9);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+  }
+  #cocktail {
+	max-width: 400px;
+	text-align: center;
+	padding: 30px 30px 12px 30px;
+	color: #fff;
+	background-color:  rgba(36, 32, 66, 0.9);
+	border: 4px solid rgba(187, 238, 225, 0.9);
+	border-radius: 5px;
+  }
+  #cocktail h1 {
+	margin: 0 0 15px 0;
+	text-transform: uppercase;
+  }
+  #cocktail img {
+	max-width: 450px;
+	max-height: 500px;
+	border: 6px solid #fff;
+	border-radius: 70px;
+	justify-content: center;
+  }
+  #cocktail ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  #cocktail li {
+	padding: 15px 0;
+	font-size: 18px;
+  }
+  #cocktail li:not(:last-of-type) {
+	border-bottom: 1px solid #fff;
+  }
+  
+  
+  
